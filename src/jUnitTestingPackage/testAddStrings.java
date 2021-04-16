@@ -10,8 +10,8 @@ public class testAddStrings {
 	@Test
 	public void test() {
 		jUnitFunction junitStrings = new jUnitFunction();
-		String result = junitStrings.addStrings("Be Happy"," Always Love Life");
-		assertEquals("Be Happy Always Love Life", result);
+		String result = junitStrings.addStrings("You must be the change"," you wish to see in the world");
+		assertEquals("You must be the change you wish to see in the world", result);
 	}
 
 }
